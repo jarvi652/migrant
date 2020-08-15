@@ -1,0 +1,54 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#f9f9f9;
+    color:#333;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    overflow-x: hidden;
+    padding: 0
+    
+}
+#registrationform{
+    background-color:#e9b8b8;
+    height: 485px;
+    width: 640px;
+    margin: 10px 0 10px 0;
+    padding:50px 0;
+}
+label{
+    font-display: flex;
+    display: flex;
+    margin: 0 12px;
+
+}
+span{
+    font-weight: 100;
+    font-size: medium;
+    color:rgb(236, 47, 14);
+}
+    
+input[type=text],select{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    width:100%;
+    background-color: rgb(8, 119, 119);
+    color:white;
+    cursor:pointer;
+    margin-top: 30px;
+    height:40px;
+    border-radius: 8px;
+    border:none;
+}
+
+
+
+    
