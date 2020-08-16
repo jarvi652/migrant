@@ -28,24 +28,26 @@
         </div>
         <form  id="registrationform" method="post" onsubmit="return validate()">
             <div>
-                <label class="label-class">Email Address<span  id="error-email">*</span></label>
-                <input type="Email Address" name="Email Address" id="Email Address" placeholder="Enter Email Address"s>
+                <label class="label-class">Email Address<span>*</span></label>
+                <input type="Email Address" name="Email Address" id="Email Address" placeholder="Enter Email Address" class="form-control required">
+                <p><span id="error-email"></span></p>
             </div>
-            <div>
-                <label class="label-class">Phone Number<span  id="phone">*</span></label>
-                <input type="Phone Number" name="Phone Number" id="Phone Number" placeholder="Enter Phone Number" >
+                <label class="label-class">Phone Number<span >*</span></label>
+                <input type="Phone Number" name="Phone Number" id="Phone Number" placeholder="Enter Phone Number" class="form-control required">
+                <p><span id="error-phone"></span></p>
             </div>
             <div >
-                <label class="label-class">First Name<span  id="error-fname">*</span></label>
-                <input type="First Name" name="First Name" id="First Name" placeholder="Enter First Name" >
+                <label class="label-class">First Name<span>*</span></label>
+                <input type="First Name" name="First Name" id="First Name" placeholder="Enter First Name" class="form-control required" >
+                <p><span id="error-fname"></span></p>
             </div>
             <div>
-                <label class="label-class">Last Name<span  id="error-lname">*</span></label>
-                <input type="Last Name" name="Last Name" id="Last Name" placeholder="Enter Last Name">
+                <label class="label-class">Last Name<span>*</span></label>
+                <input type="Last Name" name="Last Name" id="Last Name" placeholder="Enter Last Name" class="form-control required">
+                <p><span id="error-lname"></span></p>
             </div>
             <div>
-                <label class="label-class businesstype" id="businessType">This Registration is for<span
-                        id="error-btype">*</span></label> <select class="form-control required"
+                <label class="label-class businesstype" id="businessType">This Registration is for<span>*</span></label> <select class="form-control required"
                     id="accountType" name="rtype">
                     <option value="">Please Select From - Self/SME/Corporate etc</option>
                     <option value="PERSONAL" id="personal">My Personal Account</option>
@@ -53,6 +55,7 @@
                     <option value="CORPORATE">SME/Corporate - Multi Signatory</option>
                     <option value="GOVERNMENT">Government/MDA</option>
                 </select>
+                <p><span id="error-btype"></span></p>
             </div>
             <div class="g-recaptcha" data-sitekey="6Le6i78ZAAAAAK2LXzjn_11UhOz7qdAenCu0TlYt"></div>
             <button class="button">NEXT</button>

@@ -38,17 +38,16 @@ span{
 input{
     width:80%;
     height:40px;
-    padding-left:40px;
-    padding-right:60px;
+    padding-left:60px;
+    padding-right:30px;
 
 
 }
-#businessType{
-    width:90%;
-    height:50px;
+#accountType{
+    width:94%;
+    height:40px;
 }
-
-#Next{
+button{
     width:60px;
     background-color: rgb(8, 119, 119);
     color:white;
