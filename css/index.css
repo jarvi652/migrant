@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color:#f9f9f9;
+    background-color:#fff;
     color:#333;
     font-family: Open Sans,sans-serif;
     font-size: 14px;
@@ -9,17 +9,24 @@ body{
     padding: 0
     
 }
-#registrationform{
-    background-color:#e9b8b8;
-    height: 485px;
-    width: 640px;
-    margin: 10px 0 10px 0;
-    padding:50px 0;
+#header-static{
+    background-image: url(/images/header-bg-light.png);
+    width:100%;
+    height:100px;
+    padding:0;
+    box-sizing:border-box;
+    border:none;
 }
+#intro{
+    text-align: center;
+}
+
 label{
-    font-display: flex;
+    font-display: bold;
     display: flex;
     margin: 0 12px;
+    padding:0 100px 0 0;
+    
 
 }
 span{
@@ -28,26 +35,31 @@ span{
     color:rgb(236, 47, 14);
 }
     
-input[type=text],select{
-    width:100%;
-    padding:12px 20px;
-    margin:8px 0;
-    display: inline-block;
-    border:1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+input{
+    width:80%;
+    height:40px;
+    padding-left:40px;
+    padding-right:60px;
+
+
+}
+#businessType{
+    width:90%;
+    height:50px;
 }
 
-button{
-    width:100%;
+#Next{
+    width:60px;
     background-color: rgb(8, 119, 119);
     color:white;
     cursor:pointer;
     margin-top: 30px;
-    height:40px;
-    border-radius: 8px;
+    height:50px;
+    border-radius: 0px;
     border:none;
+    text-align:left;
 }
+
 
 
 
